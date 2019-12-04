@@ -18,7 +18,7 @@ class Landing extends Component {
 
               <hr />
 
-              <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+              <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express</p>
               <div className="social-links">
                 {/*LinkedIn*/}
                 <a href="https://www.linkedin.com/in/nasser-atiyeh-3758a6b8/" rel="noopener noreferrer" target="_blank">
