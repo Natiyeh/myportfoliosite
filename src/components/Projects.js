@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions,
-  Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle,
+  CardText, CardActions, Button } from 'react-mdl';
 import HomeAway from '../img/homeAway.jpg';
+import Lavender from '../img/lavender.jpg';
+import Popndrop from '../img/popndrop.jpg';
 
 class Projects extends Component {
   constructor(props) {
@@ -22,25 +24,22 @@ class Projects extends Component {
               </CardText>
               <CardActions border style={{textAlign: 'center'}}>
                 <Button>
-                  <a href="https://github.com/Natiyeh/HomeAway">
+                  <a href="https://github.com/Natiyeh/HomeAway" rel="noopener noreferrer" target="_blank">
                     GitHub
                   </a>
                 </Button>
                 <Button>
-                  <a href="https://home-away-01.herokuapp.com/">
+                  <a href="https://home-away-01.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                     Website
                   </a>
                 </Button>
               </CardActions>
-              <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-              </CardMenu>
             </Card>
           </div>
           <div className="list">
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
               <CardTitle style={{height: '176px', background:
-                `url(${HomeAway}) center / cover`}} />
+                `url(${Lavender}) center / cover`}} />
               <CardText>
                 this is an airbnb clone
               </CardText>
@@ -48,15 +47,12 @@ class Projects extends Component {
                 <Button colored>GitHub</Button>
                 <Button colored>Website</Button>
               </CardActions>
-              <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-              </CardMenu>
             </Card>
           </div>
           <div className="list">
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
               <CardTitle style={{height: '176px', background:
-                `url(${HomeAway}) center / cover`}} />
+                `url(${Popndrop}) center / cover`}} />
               <CardText>
                 this is an airbnb clone
               </CardText>
@@ -64,9 +60,6 @@ class Projects extends Component {
                 <Button colored>GitHub</Button>
                 <Button colored>Website</Button>
               </CardActions>
-              <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-              </CardMenu>
             </Card>
           </div>
         </div>
