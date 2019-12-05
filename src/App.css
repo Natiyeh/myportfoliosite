@@ -17,6 +17,15 @@
   overflow-y: auto;
 }
 
+.projects-grid {
+  text-align: center;
+}
+
+.list {
+  padding: 20px;
+  display: inline-block;
+}
+
 .avatar-holder {
   padding-top: 50px;
 }
@@ -35,6 +44,8 @@
   margin: auto;
   border-radius: 10px;
   margin-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .banner-text h1 {
